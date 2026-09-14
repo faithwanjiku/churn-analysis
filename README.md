@@ -4,10 +4,10 @@
  The project explores Telco Customer Churn dataset. The goal was to identify key factors driving customer churn and its impact on revenue. 
  I used Python and Pandas for Data Analysis and Matplotlib for Data Visualization. 
 
-# Dataset 
+## Dataset 
 - Telco Customer Churn Dataset.
 
-#Tools 
+## Tools 
 - Google Colab
 - Python
 - Pandas
