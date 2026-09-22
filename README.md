@@ -1,13 +1,13 @@
 # Telco Customer Churn Analysis
 
-# Project Overview
- The project explores Telco Customer Churn dataset. The goal was to identify key factors driving customer churn and its impact on revenue. 
- I used Python and Pandas for Data Analysis and Matplotlib for Data Visualization. 
+# Overview
+Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43% churn) and electronic check payments (45% churn) customers with both traits churn at 54%. Most churn occurs within the first 12 months, then drops off significantly after two years of tenure. This puts roughly $139K in monthly revenue (30.5% of the total) which is $1.67M annualized at risk. Recommends are; first-year retention, incentivizing longer contracts, and addressing friction in the electronic check experience.
+
 ## Problem
-Customer churn directly erodes recurring revenue, and acquiring a new 
-customer typically costs more than retaining an existing one. Telco needed to 
-understand which customers were most likely to churn and why, in order to 
-prioritize retention spend where it would have the greatest impact
+ Customer churn directly erodes recurring revenue, and acquiring a new 
+ customer typically costs more than retaining an existing one. Telco needed to 
+ understand which customers were most likely to churn and why, in order to 
+ prioritize retention spend where it would have the greatest impact
 ## Dataset 
 - Telco Customer Churn Dataset.
 - The dataset has column such as customer id, contract type, payment method, 
