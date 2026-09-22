@@ -74,5 +74,5 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
 ## How to Run
 - Open the notebook in Google Colab.
 - The dataset is loaded directly from the source URL.
-- Run the cell.
+- Run the cell. The entire code is in one cell. 
 - Note: The note book covers inspections, cleaning, churn analysis, revenue analysis and visualization. 
