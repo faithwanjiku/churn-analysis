@@ -23,7 +23,7 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
 ## Methodology
 1. Data Inspection & Cleaning - Loaded the dataset into Pandas, inspected it 
    with .head(), .shape, .info(), and checked for missing values. Found 
-   whitespace-only entries in 'TotalCharges' column customer with 0 tenure, 
+   whitespace entries in 'TotalCharges' column customer with 0 tenure, 
    stripped and replaced them with '0.0', then converted the column to float.
 2. Churn Analysis - Calculated the overall churn rate, then broke it down by 
    contract type and payment method individually, and by both combined, to find 
@@ -46,12 +46,12 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
   the highest churn rate at 54%.
 - Most customers who churn leave within the first 12 months and churn is 
   heavily concentrated in the 0-6 month window.
-  
+  ![Churn Analysis Visual](images/tenure_distribution.png)
 - Churned customers cluster tightly at low tenure while customers who stay show
   a much wider spread.
-  
+  ![Churn Analysis Boxplot](images/tenure_boxplot.png)
 - Churn decreases as customer tenure increases. Customers who stay for more than two years are much less likely to churn.
-
+    ![Churn Analysis Visual](images/churn_rate_by_tenure.png)
 ## Impact on Business
 - About 30.5% of monthly revenue is associated with customers who churn, which 
   is approximately $139130.85 per month.
@@ -61,7 +61,7 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
   $84,288.75 in monthly revenue associated with churn.
 - This represents approximately $1,669,570.20 in annualized revenue at risk if 
   current churn levels continue.
-
+   ![Revenue Analysis Visual](images/revenue_lost_by_contract.png)
 ## Recommendations.
 - Focus retention efforts on customers during their first 12 months, since this 
   is when most churn occurs.
