@@ -7,11 +7,11 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
  Customer churn directly erodes recurring revenue, and acquiring a new 
  customer typically costs more than retaining an existing one. Telco needed to 
  understand which customers were most likely to churn and why, in order to 
- prioritize retention spend where it would have the greatest impact
+ prioritize retention and spend where it would have the greatest impact.
 ## Dataset 
 - Telco Customer Churn Dataset.
 - The dataset has column such as customer id, contract type, payment method, 
-  tenure, churn status and monthly/total charges.
+  tenure, churn status monthly charges and total charges.
   
 
 ## Tools 
@@ -21,7 +21,7 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
 - Matplotlib(data visualization)
 
 ## Methodology
-1. Data Inspection & Cleaning - Loaded the dataset into Pandas, inspected it 
+1. Data Inspection & Cleaning - Loaded the dataset into pandas, inspected it 
    with .head(), .shape, .info(), and checked for missing values. Found 
    whitespace entries in 'TotalCharges' column customer with 0 tenure, 
    stripped and replaced them with '0.0', then converted the column to float.
@@ -36,7 +36,7 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
    (crimson = churned, steelblue = stayed) throughout.
    
 
-## Findings
+## Key Findings
 - Telco is losing 26% of its customers.
 - Customers on month-to-month contract are most likely to leave. About 43% of 
   them churn.
@@ -52,7 +52,7 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
   ![Churn Analysis Boxplot](images/tenure_boxplot.png)
 - Churn decreases as customer tenure increases. Customers who stay for more than two years are much less likely to churn.
     ![Churn Analysis Visual](images/churn_rate_by_tenure.png)
-## Impact on Business
+## Financial Impact on Business
 - About 30.5% of monthly revenue is associated with customers who churn, which 
   is approximately $139130.85 per month.
 - Customers on month-to-month contracts account for approximately $120,847.10 
