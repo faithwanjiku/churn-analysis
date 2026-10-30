@@ -13,11 +13,10 @@ Telco's churn rate stands at 26%, mostly driven by month-to-month contracts (43%
 - The dataset has column such as customer id, contract type, payment method, 
   tenure, churn status monthly charges and total charges.
   
-
-## Tools 
+## Tools Used
 - Google Colab
 - Python
-- Pandas(data cleaning and analysis)
+- Pandas(data cleaning, manipulation and analysis)
 - Matplotlib(data visualization)
 
 ## Methodology
